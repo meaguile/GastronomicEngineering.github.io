@@ -1,0 +1,264 @@
+/*RESET*/
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol, ul{list-style:none;} blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
+*/
+
+
+body {
+	margin: 0;
+	background: #E0EBEB;
+	/*font-family: sans-serif;*/
+	font-family: 'Abel', serif;
+	text-align: center;
+}
+
+	p, h1, h2, h3 {
+		margin: auto 150px;	
+	}
+
+	p {
+		font-size: 22px;
+		color: #248F8F;
+		text-align: justify;
+		padding-bottom: 50px;	
+	}
+
+	h1 {
+		color: #145252;
+		font-size: 32px;
+		font-weight: bold;
+		padding: 15px 0px;	
+	}	
+
+	h2 {
+		color: white;
+		font-size: 22px;
+		font-weight: normal;
+		padding-bottom: 50px;
+	}
+
+	h3 {
+		color: #145252;
+		font-size: 18px;
+		font-weight: bold;
+		padding-top: 15px;		
+		padding-bottom: 15px;
+	}
+
+	.button {
+		background: #009999;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 20px;
+		text-decoration: none;
+		border-radius: 4px;
+		padding: 15px 30px;
+		margin: 0px 20px;
+		/*text-transform: uppercase;*/
+		/*border: 1px solid white;*/
+	}
+
+		.button:hover {
+			background: #19A3A3;
+		}
+
+	.header {
+		background-image: url(../img/header.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+	}
+
+	nav {
+		padding-top: 10px;
+		padding-right: 30px;
+		/*border: 1px solid red;*/
+	}
+
+		nav a {
+			color: white;
+			font-size: 17px;
+			padding: 0px 8px;
+			text-decoration: none;
+			/*text-transform: uppercase;*/
+			/*font-weight: bold;*/
+		}
+
+			nav a:hover {
+				color: #33CCCC;
+			}
+
+	li {
+		display: inline;
+		/*background-color: red;*/
+	}
+
+	.inner {
+		padding: 150px 0px 180px 0px;
+		/*border: 1px solid blue;*/
+	}
+
+		.inner img {
+			height: 40px;
+		}
+
+		.inner p {
+			color: white;
+			text-align: center;
+		}
+
+	.text-button {
+		padding: 30px 0px 70px 0px;	
+	}
+
+	.text-pictures {
+		padding-top: 30px;
+	}
+
+	.carousel-header p {
+		text-align: center;
+		padding-bottom: 40px;
+	}
+
+	.picture {
+		display: inline-block;
+		background-color: white;
+		vertical-align: top;
+		width: 300px;
+		margin: 0px 20px 40px 20px;
+		/*float: left;*/
+	}
+
+		.picture img {
+			width: 300px;
+		}
+
+		.picture h3 {
+			margin: auto 20px;
+		}
+		.picture p {
+			margin: auto 20px;
+			font-size: 18px;
+			padding-bottom: 25px;
+			/*text-align: left;*/
+		}
+
+/*	#our-team h1{
+		padding: 10px 0px 30px 0px;
+	}*/
+
+
+
+	#about-us {
+		background-color: white;
+	}
+
+	#our-team{
+		background-color: white;
+	}
+
+		#our-team img{
+			border-radius: 50%;
+			width: 200px;
+		}
+
+	#publications{
+		background-color: white;
+	}
+
+		#publications img{
+			/*border-radius: 50%;*/
+			width: 200px;
+			border: 1px solid #F0F0F0;
+			margin-top: 20px;
+		}
+
+	#contact {
+		background-color: #145252;
+		padding-bottom: 130px;
+	}
+
+		#contact h1{
+			color: #2EB8B8;
+			font-weight: normal;
+			padding-top: 50px;
+		}
+
+		#contact p{
+			text-align: center;
+		}
+
+
+
+
+
+
+/*#research {
+	display: inline;
+	text-align: left;
+}
+
+	#research h1 {
+		display: inline;
+		padding-top: 30px;
+	}
+
+	.button-right {
+		display: inline;
+		float: right;
+		margin-right: 120px;
+	}*/
+
+
+@media only screen and (max-width : 1200px) {
+
+	p, h1, h2, h3{
+		margin: auto 100px;	
+	}
+
+	.header {
+		background-size: 1200px auto;
+		background-position: center;
+	}
+}
+
+@media only screen and (max-width : 800px) {
+
+	p, h1, h2, h3{
+		margin: auto 50px;	
+	}
+
+	.button{
+		display: block;
+		margin: 20px 50px;
+	}
+
+	.inner .button{
+		display: inline;		
+	}
+
+}
+
+
+
+/*@media only screen and (max-width : 700px) {
+
+
+	#menu-icon {
+		display:inline-block;
+		float: right;
+	}
+
+	nav {
+		display: none;
+	}
+}*/
+
+
+/*#menu-icon {
+	display: none;
+	background-image: url(../img/menu-icon.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: inherit;
+	float: left;
+}*/
