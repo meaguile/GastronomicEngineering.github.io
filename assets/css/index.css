@@ -77,6 +77,7 @@ nav a:hover {
 
 li {
 	display: inline;
+	vertical-align: middle;
 }
 
 .header {
@@ -86,11 +87,21 @@ li {
 }
 
 .inner-header {
-	padding: 120px 0px 150px 0px;
+	padding: 120px 0px;
 }
 
 .inner-header img {
 	height: 150px;
+}
+
+#twitter-logo img {
+	width: 30px;
+	height: 25px;
+	margin-top: 10px;
+}
+
+#twitter-logo:hover {
+	opacity: 0.8;
 }
 
 .inner-header p {
