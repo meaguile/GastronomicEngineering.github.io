@@ -142,9 +142,14 @@ button {
 	width: 220px;
 }
 
-.inner-header button {
-	width: 260px;
-	height: 80px;
+.inner-header .button {
+	width: 220px;
+	height: 60px;
+}
+
+.video_button {
+	line-height: 60px;
+	vertical-align: middle;
 }
 
 .button:hover {
