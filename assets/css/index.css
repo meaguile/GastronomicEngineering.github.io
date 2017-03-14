@@ -142,6 +142,10 @@ button {
 	width: 220px;
 }
 
+.link {
+	color: #145252;
+}
+
 .inner-header .button {
 	width: 220px;
 	height: 60px;
