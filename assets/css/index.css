@@ -32,10 +32,10 @@ p, h1, h2, h3, .secondary-inner-header {
 }
 
 p {
-	font-size: 22px;
+	font-size: 20px;
 	color: #248F8F;
 	text-align: justify;
-	padding-bottom: 50px;	
+	padding-bottom: 50px;
 }
 
 h1 {
@@ -61,15 +61,23 @@ h3 {
 }
 
 a {
-color: white;
-font-size: 17px;
-padding: 0px 8px;
-text-decoration: none;
+	color: white;
+	font-size: 17px;
+	padding: 0px 9px;
+	text-decoration: none;
+}
+
+ul {
+	padding: 0;
+	font-size: 0px;
+	display: inline-block;
 }
 
 nav {
-	padding-top: 10px;
-	padding-right: 30px;
+	padding-top: 20px;
+	margin: 0px 0px;
+	width: auto;
+	text-align: center;
 }
 
 nav a:hover {
@@ -86,13 +94,16 @@ button {
 }
 
 .header {
-	background-image: url(../img/header.jpg);
+	background-image: url(../img/header_image.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% auto;
+	background-position: center -80px;
+	background-color: #1d1d1d;
 }
 
 .inner-header {
-	padding: 120px 0px;
+	padding: 0px 0px 15px 0px;
+	padding-top: 350px;
 }
 
 .inner-header img {
@@ -102,7 +113,6 @@ button {
 #twitter-logo img {
 	width: 30px;
 	height: 25px;
-	margin-top: 10px;
 }
 
 #twitter-logo:hover {
@@ -114,10 +124,20 @@ button {
 	text-align: center;
 }
 
-/*.inner-header a {
+.inner-header h2 {
+	padding-bottom: 20px;
+}
+
+.inner-header .button {
+	padding: 8px;
+	width: 180px;
+	height: 53px;
+}
+
+.inner-header a {
 	vertical-align: middle;
 	float: none;
-}*/
+}
 
 .secondary-inner-header {
 	padding: 30px 0px;
@@ -132,23 +152,18 @@ button {
 	background: #009999;
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 20px;
+	font-size: 18px;
 	text-decoration: none;
 	border-radius: 4px;
 	padding: 15px 15px;
 	margin: 0px 10px 20px 10px;
 	display:inline-block;
 	vertical-align: middle;
-	width: 220px;
+	width: 180px;
 }
 
 .link {
 	color: #145252;
-}
-
-.inner-header .button {
-	width: 220px;
-	height: 60px;
 }
 
 .video_button {
@@ -162,15 +177,11 @@ button {
 
 #about {
 	background-color: white;
-	padding-bottom: 30px;	
+	padding-bottom: 30px;
 }
 
 #laboratories {
 	padding-bottom: 30px;	
-}
-
-#laboratories h1 {
-	padding-bottom: 40px;	
 }
 
 .container {
@@ -193,7 +204,7 @@ button {
 	margin: auto 20px;
 	font-size: 18px;
 	padding-bottom: 25px;
-	text-align: left;
+	text-align: justify;
 }
 
 #team{
@@ -244,7 +255,6 @@ button {
 
 	#contact p {
 		text-align: center;
-		/*font-size: 16px;*/
 		padding-bottom: 40px;
 	}
 
@@ -255,10 +265,10 @@ button {
 		margin: auto 100px;	
 	}
 
-	.header {
-		background-size: 1240px auto;
-		background-position: center;
-	}
+.header {
+	background-size: 1200px auto;
+	background-position: center -80px;
+}
 
 	.button-collection {
 		width: 800px;
@@ -269,19 +279,96 @@ button {
 @media only screen and (max-width : 800px) {
 
 	p, h1, h2, h3, .secondary-inner-header{
-		margin: auto 50px;	
+		margin: auto 30px;	
 	}
 
 	.button-collection {
 		width: auto;
 	}
+
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 700px) {
+
+	.header {
+		background-size: 100% auto;
+		background-position: center 3%;
+	}
+
+	.inner-header {
+		padding-top: 32%;
+	}
+
+	.inner-header .button {
+		margin: 0px auto 20px auto;
+		display: block;
+		width: 380px;
+		height: auto;
+		padding: 15px;
+		line-height: 1;
+	}
+}
+
+@media only screen and (max-width : 599px) {
+
+	p {
+		font-size: 16px;
+	}
+
+	.container p {
+		font-size: 16px;
+	}
+
+	.container {
+		width: 260px;
+	}
+
+	.inner-header .button {
+		width: 300px;
+	}
+
+	.button {
+		font-size: 16px;
+	}
+
+	nav {
+		padding-top: 10px;
+		margin: 0 40px;
+	}
+
+	h1 {
+		font-size: 24px;
+	}	
+
+	h2 {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	a {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width : 399px) {
+
+	nav {
+		margin: 0;
+	}
+
+	.inner-header .button {
+		width: auto;
+		margin: 0px 20px 20px 20px;
+		line-height: 1.2;
+	}
 
 	.button {
 		display: block;
-		margin: 0px 50px 20px 50px;
 		width: auto;
+		margin: 0px 20px 20px 20px;
 	}
+
 }
