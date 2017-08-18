@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+ 	<head>
+    <title>Ingeniería Gastronómica / Noticias </title>
+    <meta charset="utf-8">
+		<link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel">
+ 	</head>
+
+  <div class="header">
+    <div class="secondary-inner-header">
+      <a href="espanol.html">&lt; Ingeniería Gastronómica</a>
+    </div>
+  </div>
+
+  <div class="secondary-text">
+    <h1>Noticias</h1>
+    <p>
+      Acá serán insertadas las noticias sobre la unidad gastronómica.
+    </p>
+  </div>
+
+  <div id="contact">
+    <h1>Contacto</h1>
+    <p>Departamento de Ingeniería Química, P. Universidad Católica de Chile<br>Vicuña Mackenna 4860, Macul, Santiago, CHILE</p>
+    <a href="mailto:lmunoz@ing.puc.cl" class="button">Enviar mensaje</a>
+  </div>
+</html>
